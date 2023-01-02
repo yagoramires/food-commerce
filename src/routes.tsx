@@ -5,6 +5,10 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/burgers' element={<Home />} />
+      <Route path='/pizzas' element={<Home />} />
+      <Route path='/drinks' element={<Home />} />
+      <Route path='/ice-creams' element={<Home />} />
     </Routes>
   )
 }

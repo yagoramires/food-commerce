@@ -10,3 +10,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.active {
+  border-left: 4px solid #FCC419;
+  color: #FCC419;
+}
+
+@media (max-width: 639px) {
+  .active {
+    border: none;
+  }
+}
