@@ -1,14 +1,19 @@
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Burgers from './components/Burgers'
+import Drinks from './components/Drinks'
+import IceCreams from './components/IceCreams'
+import Pizzas from './components/Pizzas'
+import Main from './pages/Main'
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/burgers' element={<Home />} />
-      <Route path='/pizzas' element={<Home />} />
-      <Route path='/drinks' element={<Home />} />
-      <Route path='/ice-creams' element={<Home />} />
+      <Route path='/' element={<Main />}>
+        <Route path='/' element={<Burgers />} />
+        <Route path='/pizzas' element={<Pizzas />} />
+        <Route path='/drinks' element={<Drinks />} />
+        <Route path='/ice-creams' element={<IceCreams />} />
+      </Route>
     </Routes>
   )
 }

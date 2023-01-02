@@ -20,7 +20,7 @@ const Sidebar = () => {
         <ul className='flex flex-col justify-center h-full gap-10 sm:flex-row sm:gap-6'>
           <li>
             <NavLink
-              to='/burgers'
+              to='/'
               className='flex items-center gap-4 px-4 transition-all duration-200 border-l-4 sm:border-none hover:border-l-yellow border-l-red hover:text-yellow'
             >
               <FaHamburger size={30} />
