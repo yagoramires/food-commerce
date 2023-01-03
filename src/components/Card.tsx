@@ -14,13 +14,14 @@ const Card = ({ data }: CardProps) => {
             className='flex flex-col items-center justify-center pt-4 rounded-md shadow-md bg-black200'
           >
             <h2 className='w-full pb-4 text-2xl font-bold text-center'>{item.name}</h2>
-            <div className='relative'>
-              <img src={item.image} alt={item.name} />
-            </div>
-            <div className='w-full px-4 pt-4'>
-              <p className='font-bold'>Ingredientes :</p>
-              <p className='text-sm italic '>{item.description}</p>
-            </div>
+
+            <img src={item.image} alt={item.name} className='h-[350px] w-full object-cover' />
+            {item.description && (
+              <div className='w-full px-4 pt-4'>
+                <p className='font-bold'>Ingredientes :</p>
+                <p className='text-sm italic '>{item.description}</p>
+              </div>
+            )}
             <div className='flex items-center justify-between w-full p-4'>
               <div className='w-full '>
                 <p className='font-bold'>Valor :</p>
