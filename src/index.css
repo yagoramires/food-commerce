@@ -22,6 +22,30 @@
   gap: 1.75rem;
 }
 
+.loading {
+  background: linear-gradient(90deg, #121212 0%, #0A0A0A 40%, #121212 100%);
+  background-size: 200%;
+  animation: shimmerEffect 1s linear infinite;
+}
+
+@keyframes shimmerEffect {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: -50%;
+  }
+
+  75% {
+    background-position: -125%;
+  }
+
+  100% {
+    background-position: -200%;
+  }
+}
+
 @media (max-width: 639px) {
   .active {
     border: none;

@@ -1,4 +1,5 @@
 import { FiPlus } from 'react-icons/fi'
+import LoadingCard from './LoadingCard'
 
 interface CardProps {
   data: any[]
@@ -7,7 +8,8 @@ interface CardProps {
 const Card = ({ data }: CardProps) => {
   return (
     <div className='gridDisplay sm:flex sm:flex-col'>
-      {data &&
+      {data.length === 0 && <LoadingCard />}
+      {data.length > 0 &&
         data.map((item) => (
           <div
             key={item.id}
