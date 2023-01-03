@@ -16,6 +16,12 @@
   color: #FCC419;
 }
 
+.gridDisplay {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 1.75rem;
+}
+
 @media (max-width: 639px) {
   .active {
     border: none;

@@ -6,8 +6,8 @@ const Main = () => {
   return (
     <>
       <Sidebar />
-      <section className='w-full h-[100vh] bg-black100 p-8 text-white'>
-        <div className='flex items-center w-full gap-2 sm:justify-center'>
+      <section className='w-full h-[100vh] bg-black100 p-8 text-white overflow-y-scroll'>
+        <div className='flex items-center w-full gap-2 mb-10 sm:justify-center'>
           <MdFastfood size={40} className='text-yellow' />
           <h1 className='flex flex-col justify-center font-bold'>
             <span className='leading-[16px]'> Food </span>{' '}
