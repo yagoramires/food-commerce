@@ -1,0 +1,162 @@
+{
+  "burgers": [
+    {
+      "id": 1,
+      "type": "burger",
+      "name": "X-Tudo",
+      "description": "Pão com Gergelim, Hambúrguer, Queijo, Alface, Tomate, Ovo, Molho",
+      "price": 14.99,
+      "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-x-tudo.jpg"
+    },
+    {
+      "id": 2,
+      "type": "burger",
+      "name": "X-Bacon",
+      "description": "Pão Brioche, Hambúrguer, Queijo Cheddar, Bacon, Alface, Tomate",
+      "price": 13.5,
+      "image": "https://embutidosbonatti.ind.br/temp/xxx-57-1920x1080m1.jpg"
+    },
+    {
+      "id": 3,
+      "type": "burger",
+      "name": "X-Australia",
+      "description": "Pão Australiano, Hambúrguer, Queijo Cheddar, Bacon, Molho Barbecue",
+      "price": 19.5,
+      "image": "https://vocegastro.com.br/app/uploads/2021/11/x-bacon.jpg"
+    },
+    {
+      "id": 4,
+      "type": "burger",
+      "name": "X-God",
+      "description": "Pão Artesanal, Hambúrguer, Alface, Tomate, Picles, Cebola Roxa, Maionese da casa",
+      "price": 17.5,
+      "image": "https://www.minervafoods.com/wp-content/uploads/2016/06/como_fazer_hamburguer_caseiro.jpg"
+    },
+    {
+      "id": 5,
+      "type": "burger",
+      "name": "X-Que",
+      "description": "Pão Brioche, 2 Hambúrgueres, Alface, Queijo Cheddar, Queijo Bola, Picles, Maionese da casa",
+      "price": 16,
+      "image": "https://conteudo.imguol.com.br/45/2018/07/17/mao-santa-burguer-1531851949973_v2_4x3.jpg"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "type": "drink",
+      "name": "Coca-Cola",
+      "price": 7.99,
+      "image": "https://carrefourbr.vtexassets.com/arquivos/ids/18904046/coca-cola-310ml-1.jpg?v=637590218201970000"
+    },
+    {
+      "id": 2,
+      "type": "drink",
+      "name": "Guaraná Antártica",
+      "price": 7.99,
+      "image": "https://giassi.vtexassets.com/arquivos/ids/507250/Refrigerante-Guarana-Antarctica-Lata-310ml.png?v=637994816574830000"
+    },
+    {
+      "id": 3,
+      "type": "drink",
+      "name": "Matte Leão",
+      "price": 6.99,
+      "image": "https://andinacocacola.vtexassets.com/arquivos/ids/155490/7891098040671_01.jpg?v=637722480149630000"
+    },
+    {
+      "id": 4,
+      "type": "drink",
+      "name": "Fanta Uva",
+      "price": 8.5,
+      "image": "http://d2r9epyceweg5n.cloudfront.net/stores/001/043/122/products/fanta-uva-3501-012134716f394f6f1a15698487625514-640-0.png"
+    },
+    {
+      "id": 5,
+      "type": "drink",
+      "name": "Água",
+      "price": 4.5,
+      "image": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/2893-agua-mineral-crystal-sem-gas-500ml.jpg"
+    }
+  ],
+  "ice-creams": [
+    {
+      "id": 1,
+      "type": "ice-cream",
+      "name": "Sorvete de Creme",
+      "price": 14.99,
+      "image": "https://static.wixstatic.com/media/261d21_580099330fa54c39bb3bd475cab49949~mv2.jpg/v1/fill/w_1798,h_1080,al_c,q_85/261d21_580099330fa54c39bb3bd475cab49949~mv2.jpg"
+    },
+    {
+      "id": 2,
+      "type": "ice-cream",
+      "name": "Sorvete de Morango",
+      "price": 14.99,
+      "image": "https://www.receitasedicasdochef.com.br/wp-content/uploads/2021/01/Sorvete-de-Morango-Caseiro-Delicioso.jpg"
+    },
+    {
+      "id": 3,
+      "type": "ice-cream",
+      "name": "Sorvete de Chocolate",
+      "price": 14.99,
+      "image": "https://www.receitasedicasdochef.com.br/wp-content/uploads/2022/01/Sorvete-de-Chocolate-Caseiro.webp"
+    },
+    {
+      "id": 4,
+      "type": "ice-cream",
+      "name": "Brownie com Sorvete",
+      "description": "Sorvete de creme com Brownie feito com Chocolate Belga e Calda de Chocolate Belga",
+      "price": 24.99,
+      "image": "https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/baking/image-thumb__70799__RecipeDetail/brownie-com-sorvete.jpg"
+    },
+    {
+      "id": 5,
+      "type": "ice-cream",
+      "name": "Açai",
+      "description": "Açai, Banana, Leite Ninho, Amendoim",
+      "price": 17,
+      "image": "https://www.assai.com.br/sites/default/files/shutterstock_2076982999.jpg"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "type": "pizza",
+      "name": "Cattuperoni",
+      "description": "Massa Tradicional, Molho de Tomate, Queijo mussarela, Pepperoni, Catupiry® e Orégano.",
+      "price": 64.9,
+      "image": "https://forneriaoriginal.com/wp-content/uploads/2020/04/27_catuperoni2.jpg"
+    },
+    {
+      "id": 2,
+      "type": "pizza",
+      "name": "Portuguesa",
+      "description": "Massa Tradicional, Molho de Tomate, Queijo mussarela, Ovo, Tomate, Cebola, Azeitona, Presunto.",
+      "price": 43.5,
+      "image": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/103eca6a504379a0df6f55155b8d607d.jpg"
+    },
+    {
+      "id": 3,
+      "type": "pizza",
+      "name": "4 Queijos",
+      "description": "Massa Tradicional, Molho de Tomate, Mussarela, Gorgonzola, Parmesão, Catupiry®.",
+      "price": 55,
+      "image": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d036cd01122da62bf581784f52d99b3a.jpg"
+    },
+    {
+      "id": 4,
+      "type": "pizza",
+      "name": "Da casa",
+      "description": "Molho de Tomate, Queijo Mussarela, Calabreza, Azeitona Preta, Milho, Palmito, Catupiry® e Orégano.",
+      "price": 17.5,
+      "image": "https://forneriaoriginal.com/wp-content/uploads/2016/10/a-moda-1.png"
+    },
+    {
+      "id": 5,
+      "type": "pizza",
+      "name": "Camarão com Alho Poró",
+      "description": "Molho de Tomate, Mussarela, Cream Cheese Philadelphia, Camarões, Alho Poró e Orégano.",
+      "price": 16,
+      "image": "https://forneriaoriginal.com/wp-content/uploads/2021/01/camarao-alho-poro1.png"
+    }
+  ]
+}
